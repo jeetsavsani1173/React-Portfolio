@@ -21,7 +21,7 @@ const Projects = () => {
             </h3>
           </div>
           <a
-            href="https://github.com/jeetsavsani1173/portfollie"
+            href="https://github.com/jeetsavsani1173/React-Portfolio"
             target="_blank"
             rel="noreferrer"
           >

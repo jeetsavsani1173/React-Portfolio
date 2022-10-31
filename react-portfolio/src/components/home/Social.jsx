@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/jeetsavsani/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -12,7 +12,7 @@ const Social = () => {
         <i className="uil uil-instagram-alt"></i>
       </a>
       <a
-        href="https://github.com/"
+        href="https://github.com/jeetsavsani1173/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -20,7 +20,7 @@ const Social = () => {
         <i className="uil uil-github-alt"></i>
       </a>
       <a
-        href="https://gmail.com/"
+        href="mailto:jeetsavsani1173@gmail.com"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -28,7 +28,7 @@ const Social = () => {
         <i className="uil uil-envelope"></i>
       </a>
       <a
-        href="https://twitter.com/"
+        href="https://twitter.com/SavsaniJeet"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
