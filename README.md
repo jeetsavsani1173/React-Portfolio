@@ -12,4 +12,4 @@
 
 - https://www.emailjs.com/docs/examples/reactjs/
 
-- https://dashboard.emailjs.com/admin - mail-id : jeetsavsani2@gmail.com
+- https://dashboard.emailjs.com/admin
