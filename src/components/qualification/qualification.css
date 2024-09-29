@@ -108,7 +108,11 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
+  .qualification__container {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .qualification__data {
     gap: 0.5rem;
   }
