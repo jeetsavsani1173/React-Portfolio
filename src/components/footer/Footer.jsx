@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="footer__container container">
@@ -52,7 +53,9 @@ const Footer = () => {
           </a>
         </div>
 
-        <span className="footer__copy">Copyright © 2022 Jeet Savsani </span>
+        <span className="footer__copy">
+          Copyright © {currentYear} Jeet Savsani{" "}
+        </span>
       </div>
     </footer>
   );
