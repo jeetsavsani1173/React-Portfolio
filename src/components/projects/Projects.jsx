@@ -16,12 +16,10 @@ const Projects = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">
-              React <br /> Portfolio
-            </h3>
+            <h3 className="services__title">CoursePool</h3>
           </div>
           <a
-            href="https://github.com/jeetsavsani1173/React-Portfolio"
+            href="https://github.com/jeetsavsani1173/CoursePool"
             target="_blank"
             rel="noreferrer"
           >
@@ -46,44 +44,53 @@ const Projects = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">React Portfolio</h3>
+              <h3 className="services__modal-title">CoursePool</h3>
               <p className="services__modal-description">
-                React Portfolio is one static Responsive website. which has some
-                sections called About,Skills,Projects, Online Coding Plateform
-                Profile , contact form , etc.
+                CoursePool is an SEO-friendly E-learning platform offering
+                diverse courses. It features OAuth authentication, JWT security,
+                and Redis caching. The platform integrates Stripe for payments,
+                Cloudinary for image uploads, VdoCipher for secure video, and
+                real-time notifications via Socket.io.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    used variable-CSS for styling.
+                    Developed a innovative dynamic E-learning plateform called
+                    CoursePool with SEO-friendly. which offers a wide range of
+                    courses to students of all ages and backgrounds.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    Made carousal with the help of SwiperJs inbuilt module.
+                    Implemented Google-sign-in and Github-sign-in using OAuth
+                    and also added JWT Token Authentication system by using the
+                    concept of Refresh Token Rotation.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    for mailing functionality used emailJs Services.
+                    Added Redis database for caching purpose and cached the
+                    frequently called API’s.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    for different type Icon used website
-                    https://iconscout.com/unicons/explore/line.
+                    Used the Dynamic Email sending template with Ejs on Account
+                    Activation and course-purchased ,etc.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    for giving shadow to box used website
-                    https://getcssscan.com/css-buttons-examples
+                    Other functionalities are stripe payment gateway on
+                    purchased-course, used cloudinary for image upload
+                    ,VdoCipher for secure video upload, real-time notification
+                    with sound in admin panel using Socket.io.
                   </p>
                 </li>
               </ul>
@@ -94,12 +101,10 @@ const Projects = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">
-              Web-Scraping <br /> in-Node.js
-            </h3>
+            <h3 className="services__title">TourNion</h3>
           </div>
           <a
-            href="https://github.com/jeetsavsani1173/Web-Scraping-in-Node.js"
+            href="https://github.com/jeetsavsani1173/TourNion"
             target="_blank"
             rel="noreferrer"
           >
@@ -124,41 +129,46 @@ const Projects = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Web-Scraping in-Node.js</h3>
+              <h3 className="services__modal-title">TourNion</h3>
               <p className="services__modal-description">
-                Web-Scraping in-Node.js Node-application scrap the data from
-                cricinfo website about IPL matches and show in console. and also
-                store in excel file as per team name.
+                TourNion is a web application built on the MERN stack that
+                allows users to share their travel experiences. It features a
+                RESTful API for seamless CRUD operations, Google Sign-In for
+                secure authentication, and interactive functionalities like
+                pagination, likes, comments, and a search feature to find tours
+                by name. The platform's modern and responsive design is powered
+                by MDB (Modern Design Bootstrap), creating an engaging space for
+                users to connect and explore unique travel stories.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    for styling in console used cheerio module.
+                    Designed a web application in MERN stack that lets users to
+                    Share their Tour Experience.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    for working with file opration used module called fs
+                    Built restful API with Node.js and Express.js for CRUD
+                    operations and tested on Postman API tool.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    used path inbuilt module.
+                    Implemented Sign-In with google functionality using
+                    google-cloud API and JWT Token Authenticated.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services__modal-info">used request module</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    used Asynchronous programming in node-Js for fetching data
-                    from other website
+                    Other functionalities Pagination ,Like, Comment, Search Tour
+                    by name, Related tour section. used MDB(Modern design
+                    bootstrap) for styling ,etc.
                   </p>
                 </li>
               </ul>
@@ -169,12 +179,10 @@ const Projects = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">
-              Results <br /> Management System
-            </h3>
+            <h3 className="services__title">InterviewBie</h3>
           </div>
           <a
-            href="https://github.com/jeetsavsani1173/Results_Management_System"
+            href="https://github.com/jeetsavsani1173/InterviewBie"
             target="_blank"
             rel="noreferrer"
           >
@@ -199,46 +207,44 @@ const Projects = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">
-                Results Management System
-              </h3>
+              <h3 className="services__modal-title">InterviewBie</h3>
               <p className="services__modal-description">
-                Results Management System is devloped using .net framwork
-                Technology. it has basic application which has two type of user
-                called Admin and Student. Admin can add student and student
-                results. while student can see his/her results.
+                The main objective of InterviewBie was to create a web
+                application that facilitates virtual technical interviews. It
+                includes a real-time code editor with support for multiple
+                programming languages and themes, a code execution feature
+                through an API, and integrated live video and audio chat
+                functionalities, offering a comprehensive platform for
+                interviewers and candidates.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    for styling used BootStrap.
+                    Builded a web-application for taking virtual technical
+                    interview with realtime Code Editor IDE using Socket.io.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    Coding IDE used is Visual studio 2019
+                    Added Codemirror NPM module for code editor and Enabled
+                    different languages(15+) and themes support.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    for storing data of studnet and result used SQL database.
+                    Integrated code-compiler Rapid-API for code-runner
+                    functionality.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services__modal-info">
-                    added print result functionality
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services__modal-info">
-                    used inbuilt functionality called gridView for showing data
-                    of studnets and results.
+                    live Video and audio chat functionalities were created
+                    successfully using ZegoCloud Web services.
                   </p>
                 </li>
               </ul>
