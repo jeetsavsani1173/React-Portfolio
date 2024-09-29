@@ -55,10 +55,11 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Full-Stack Developer</h3>
+      <h3 className="home__subtitle">Software Engineer</h3>
       <p className="home__description">
-        I'm a MERN-stack developer , and I'm very passionate and dedicated to my
-        work.
+        Software Engineer @Crest Data | Leetcode Knight badge(Max-Ratting: 1907)
+        | MERN-Stack Developer | React | Java | Spring Boot | Python | Golang |
+        Docker | Typescript | Nextjs | FFE Scholar✨
       </p>
 
       <a href="#contact" className="button button--flex">

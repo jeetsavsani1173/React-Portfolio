@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about1.jpg";
-import CV from "../../assets/Jeet_Resume_2022.pdf";
+import JeetAboutImg from "../../assets/jeetabout.jpg";
+import CV from "../../assets/Jeet_Savsani_August_Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -11,17 +11,19 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img"></img>
+        <img src={JeetAboutImg} alt="" className="about__img"></img>
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I am from Surat, Gujarat, India.I'm a pre-final year student in
-            Computer Engineering Currently, I pursuing my B.Tech from Dharmsinh
-            Desai University(Nadiad). I am very interested in Know About new
-            Technology. I am a person who is positive about every aspect of
-            life. I'm interested in problem-solving and getting to know about
-            new stuff. My goal is to Become a Great Software Engineer with Good
-            Knowledge.
+            I am a <b>Software Engineer</b> at <b>Crest Data</b> with a strong
+            foundation in full-stack development, specializing in the MERN
+            stack, Java, Spring Boot, and Python. With competitive programming
+            skills demonstrated by my <b>Leetcode Knight badge</b> (max rating:
+            1907), I thrive on solving complex problems. I hold a B.Tech in
+            <b>Computer Engineering</b> from <b>Dharmsinh Desai University</b>{" "}
+            and have contributed to impactful projects across the IT industry.
+            Passionate about continuous learning, always seeking innovative
+            solutions to drive success.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download Resume
