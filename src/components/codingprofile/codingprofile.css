@@ -96,14 +96,20 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .testimonial__container {
-    width: 400px;
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 450px) {
   .testimonial__container {
-    width: 350px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .testimonial__container {
+    width: 80%;
   }
 }
