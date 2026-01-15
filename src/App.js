@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import { ThemeProvider } from "./context/ThemeContext";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
@@ -12,7 +12,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
+    <ThemeProvider>
       <Header />
       <main className="main">
         <Home />
@@ -24,7 +24,7 @@ function App() {
         <Contact />
         <Footer />
       </main>
-    </>
+    </ThemeProvider>
   );
 }
 
